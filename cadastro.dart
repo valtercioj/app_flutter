@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       TextFormField(
                         decoration: const InputDecoration(
-                          labelText: 'Username',
+                          labelText: 'Nome de usuário',
                           border: OutlineInputBorder(),
                         ),
                       ),
@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         obscureText:
                             !_isPasswordVisible, // Altera a visibilidade com base na variável
                         decoration: InputDecoration(
-                          labelText: 'Password',
+                          labelText: 'Senha',
                           border: const OutlineInputBorder(),
                           suffixIcon: IconButton(
                             icon: Icon(
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 right: 20.0,
                                 left: 20.0),
                             child: const Text(
-                              'Sign In',
+                              'Criar',
                               style: TextStyle(fontSize: 20),
                             ),
                           )),
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 const SizedBox(height: 20),
                 // Legenda abaixo dos botões de redes sociais
                 const Text(
-                  'or sign in with',
+                  'Ou Entre com',
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
